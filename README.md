@@ -34,6 +34,7 @@ import pandas as pd
 data = pd.read_csv('kor.csv')
 
 correlation = data['Hours per day'].corr(data['Total level'])
+
 correlation
 0.15086905986215637
 
